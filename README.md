@@ -1,0 +1,2 @@
+# Simple-Static-Page
+SIMPLE STATIC PAGE USING REACT JS
