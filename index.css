@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282D35;
+}
+nav {
+  display: flex;
+  background-color: #21222A;
+  align-items: center;
+  height: 60px;
+  padding: 30px 25px;
+
+}
+.imag1 {
+  width: 100px;
+}
+
+nav > h3,nav >h4 {
+  margin: 0;
+}
+nav > h3 {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight :700;
+  font-size: 22px;
+}
+nav > h4 {
+  color: white;
+  font-weight: 600;
+}
+
+/* .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+} */
+.Title {
+  font-family: Roboto;
+  font-style: normal;
+  margin-top: 50px;
+}
+.rights {
+  position:absolute;
+ bottom:0;
+ width:100%;
+ height:30px;   /* Height of the footer */
+ background:#7F7D7D;
+ color: white;
+
+}
+.MainContent {
+  padding: 57px 27px;
+  color: white;
+  background-image: url('./images/react-native.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.Main-facts {
+  margin-top: 46px;
+}
+.Main-facts > li{
+   padding-block : 10px;
+   max-width: 400px;
+}
+.Main-facts > li ::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
